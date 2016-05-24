@@ -31,6 +31,7 @@ public class MainActivity extends SlidingFragmentActivity {
         System.out.println(slidingmenu_width + "=======");
         slidingMenu.setBehindOffset(slidingmenu_width);//让侧边栏的宽度为屏幕的三分之一
         initFragment();
+        //修改了一部分内容，用于测试git
     }
 
     /**

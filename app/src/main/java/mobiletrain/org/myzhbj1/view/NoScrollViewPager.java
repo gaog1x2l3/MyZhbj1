@@ -17,7 +17,7 @@ public class NoScrollViewPager extends ViewPager {
     }
 
     /**
-     * 拦截事件,true:表示拦截，false：表示不拦截
+     * 拦截事件,true:表示拦截，false：表示不拦截,可以使嵌套的viewpager响应左右滑动事件。
      * @param event
      * @return
      */
